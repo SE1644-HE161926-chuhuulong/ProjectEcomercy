@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 23, 2023, 4:56:00 PM
+    Author     : black
+*/
+
+.forgotpass-responsive-form {
+    height: calc(100vh - 75px);
+    overflow: auto;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.forgotpass-responsive-form .was-validated .form-control {
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    .hanime-responsive-form {
+        align-items: initial;
+    }
+}
+
+
